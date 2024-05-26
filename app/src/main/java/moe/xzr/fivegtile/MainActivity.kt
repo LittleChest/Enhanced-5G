@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
         TopAppBar(title = {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Image(
-                    painter = painterResource(id = R.drawable.ic_5g_big),
+                    painter = painterResource(id = R.drawable.ic_5g),
                     contentDescription = null,
                     colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.onSurface),
                     modifier = Modifier.size(40.dp)

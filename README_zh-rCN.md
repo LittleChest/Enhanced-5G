@@ -1,4 +1,4 @@
-# FivegTile
+# 5G 增强
 
 在快速设置中一键开关 5G
 
@@ -15,7 +15,7 @@
 
 ## 下载
 
-- [Releases](https://github.com/libxzr/FivegTile/releases)
+- [Releases](https://github.com/LittleChest/Enhanced5G/releases)
 
 ## 开源许可
 

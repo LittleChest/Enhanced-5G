@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'moe.xzr.fivegtile'
+    namespace 'top.littlew.enhanced5g'
     compileSdk 33
 
     defaultConfig {
-        applicationId "moe.xzr.fivegtile"
+        applicationId "top.littlew.enhanced5g"
         minSdk 29
         targetSdk 33
         versionCode 2

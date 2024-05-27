@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">5G Tile</string>
+    <string name="app_name">Enhanced 5G</string>
     <string name="hint">Hint</string>
     <string name="hint_good">Now you can add the tile to the quick settings and toggle 5G conveniently.</string>
     <string name="compatibility_pending">Checking…</string>

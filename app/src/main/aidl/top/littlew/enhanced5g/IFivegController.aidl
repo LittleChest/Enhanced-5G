@@ -1,4 +1,4 @@
-package moe.xzr.fivegtile;
+package top.littlew.enhanced5g;
 
 interface IFivegController {
     boolean compatibilityCheck(int subId);

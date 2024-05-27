@@ -1,4 +1,4 @@
-package moe.xzr.fivegtile.ui.theme
+package top.littlew.enhanced5g.ui.theme
 
 import android.app.Activity
 import android.os.Build

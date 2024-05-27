@@ -1,4 +1,4 @@
-package moe.xzr.fivegtile
+package top.littlew.enhanced5g
 
 import android.content.Intent
 import android.net.Uri
@@ -23,7 +23,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import moe.xzr.fivegtile.ui.theme.FivegTileTheme
+import top.littlew.enhanced5g.ui.theme.FivegTileTheme
 
 class MainActivity : ComponentActivity() {
     private val viewModel by viewModels<MainViewModel>()
@@ -64,13 +64,7 @@ class MainActivity : ComponentActivity() {
     private fun TopBar() {
         TopAppBar(title = {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Image(
-                    painter = painterResource(id = R.drawable.ic_5g),
-                    contentDescription = null,
-                    colorFilter = ColorFilter.tint(MaterialTheme.colorScheme.onSurface),
-                    modifier = Modifier.size(40.dp)
-                )
-                Text(text = "Tile")
+                Text(text = "Enhanced 5G")
             }
         })
     }
@@ -97,9 +91,9 @@ class MainActivity : ComponentActivity() {
                 )
                 Column(modifier = Modifier.padding(2.5.dp)) {
                     Item(
-                        title = "FivegTile",
-                        subtitle = "https://github.com/libxzr/FivegTile",
-                        link = "https://github.com/libxzr/FivegTile"
+                        title = "Enhanced 5G",
+                        subtitle = "https://github.com/LittleChest/Enhanced5G",
+                        link = "https://github.com/LittleChest/Enhanced5G"
                     )
                 }
                 Spacer(modifier = Modifier.height(20.dp))
@@ -108,6 +102,12 @@ class MainActivity : ComponentActivity() {
                     style = MaterialTheme.typography.bodyMedium
                 )
                 Column(modifier = Modifier.padding(2.5.dp)) {
+                    Item(
+                        title = "FivegTile",
+                        subtitle = "MIT License\n" +
+                                "https://github.com/libxzr/FivegTile",
+                        link = "https://github.com/libxzr/FivegTile"
+                    )
                     Item(
                         title = "libsu",
                         subtitle = "Apache License 2.0\n" +

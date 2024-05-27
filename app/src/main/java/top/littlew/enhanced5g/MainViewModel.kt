@@ -1,4 +1,4 @@
-package moe.xzr.fivegtile
+package top.littlew.enhanced5g
 
 import android.app.Application
 import android.content.ComponentName

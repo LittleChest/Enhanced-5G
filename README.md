@@ -1,4 +1,4 @@
-# FivegTile
+# Enhanced 5G
 
 [中文版](README_zh-rCN.md)
 
@@ -17,7 +17,7 @@ Well, this should have been done by OEMs and some of them actually had this feat
 
 ## Download
 
-- [Releases](https://github.com/libxzr/FivegTile/releases)
+- [Releases](https://github.com/LittleChest/Enhanced5G/releases)
 
 ## License
 

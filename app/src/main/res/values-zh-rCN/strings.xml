@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">5G Tile</string>
+    <string name="app_name">5G 增强</string>
     <string name="hint">提示</string>
     <string name="hint_good">现在，您可以将磁贴添加到快速设置中以方便的开关 5G 。</string>
     <string name="compatibility_pending">正在检查…</string>
